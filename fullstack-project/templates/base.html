@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}"
+    <script src="{{url_for('static', filename='main.js')}}"
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>{% block title%} {% endblock %} - Fullstack Demo</title>
+</head>
+<body>
+    <h1>Fullstack Demo</h1>
+
+    <a href="{{url_for ('home')}}"><button>Home</button></a>
+
+    <button id="hide-text">Hide Text</button>
+
+    
+    <div>
+        {% block content %} {% endblock %}
+    </div>
+
+    
+</body>
+</html>

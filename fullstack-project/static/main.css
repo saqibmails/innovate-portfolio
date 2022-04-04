@@ -1,0 +1,22 @@
+body{
+
+    background-color: lightgrey;
+
+}
+
+h1{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
+
+}
+
+h1:hover{
+
+    color:skyblue;
+
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
