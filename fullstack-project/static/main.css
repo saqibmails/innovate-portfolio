@@ -1,9 +1,8 @@
 body{
 
-    background-color: lightgrey;
+    background-color: cornflowerblue;
 
-}
-
+    }
 h1{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,10 +12,96 @@ h1{
 
 h1:hover{
 
-    color:skyblue;
+    color: rgba(11, 25, 221, 0.87);
 
 }
+
+h1{ 
+
+    font-size: 8vh;
+}
+
+h2{
+
+    text-align: center;
+}
+
 
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.navbar{
+
+    text-align: center;
+
+    font-size: 3vh;
+
+    text-decoration: none;
+
+    font-weight: bolder;
+    background-color: cyan;
+    
+    padding: auto;
+
+    margin:auto;
+
+}
+
+a{
+
+    text-decoration: none;
+    position: relative;
+    padding: 1.20rem;
+    color: rgba(11, 25, 221, 0.87);
+
+   }
+
+a:hover{
+     color:black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+/*  position: relative;
+
+ justify-content: center; */
+}
+
+.manu{
+
+    font-size: 4vh;
+    text-align: center;
+    padding: 2em; 
+}
+
+@media (orientation:
+portrait) {
+    .title{
+    color: Grey;
+    background-color:green;
+    text-align:center;
+    padding:5%;
+    font-size: 2em;
+    
+}
+
+
+
+@media (orientation:
+landscape) {
+    .title{
+    color: blue;
+    background-color:rgb(145, 224, 145);
+    text-align:center;
+    padding:3%;
+    font-size: 4em;
+    
+}
+
+
+
