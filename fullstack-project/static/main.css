@@ -7,6 +7,7 @@ h1{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: sans-serif;
+    text-align: center;
 
 }
 
@@ -29,6 +30,7 @@ h2{
 
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .navbar{
@@ -58,7 +60,8 @@ a{
    }
 
 a:hover{
-     color:black;
+
+   color:black;
 }
 
 .center {
@@ -71,6 +74,7 @@ a:hover{
 
  justify-content: center; */
 }
+
 
 .manu{
 
@@ -87,7 +91,7 @@ portrait) {
     text-align:center;
     padding:5%;
     font-size: 2em;
-    
+    }
 }
 
 
@@ -95,13 +99,10 @@ portrait) {
 @media (orientation:
 landscape) {
     .title{
-    color: blue;
+    color:blue;
     background-color:rgb(145, 224, 145);
     text-align:center;
     padding:3%;
     font-size: 4em;
-    
+    }
 }
-
-
-
